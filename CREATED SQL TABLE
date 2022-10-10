@@ -1,0 +1,22 @@
+CREATE TABLE WyniscoHomework
+(
+StudentName Varchar(255), 
+PhoneNumber int, 
+City Varchar(255), 
+HomeworkDone BOOLEAN, 
+FeedbackReceived BOOLEAN
+);
+
+INSERT INTO WyniscoHomework (StudentName, PhoneNumber, City, HomeworkDone, FeedbackReceived)
+
+VALUES (’Sita’, ‘1231231’, 'INDIA','TRUE', 'TRUE');
+VALUES (‘Geeta’, 88998899’, 'INDIA’,’FALSE, 'TRUE');
+VALUES ('Anita’, 45454545’, 'INDIA','TRUE', ‘FALSE);
+
+UPDATE WyniscoHomework
+SET PhoneNumber = ’88888888’;
+
+
+
+
+
